@@ -37,29 +37,49 @@
     <table style="text-align: left" cellpadding="5">
         <tr>
             <th>Name:</th>
-            <td><input type="text" name="name" value="${product.name}"></td>
+            <td><input id="1" type="text" name="name" onmouseout="changeColor2()" onmouseover="changeColor1()"  onfocus="this.value=''" value="${product.name}"></td>
         </tr>
         <tr>
             <th>price:</th>
-            <td><input type="number" name="name" value="${product.price}"></td>
+            <td><input id="2" type="number" name="name"
+                       onfocus="this.value=''" onmouseout="changeColor2()" onmouseover="changeColor1()" value="${product.price}"></td>
         </tr>
         <tr>
             <th>Quantity:</th>
-            <td><input type="number" name="quantity" value="${product.quantity}"></td>
+            <td><input id="3" type="number" name="quantity" onmouseout="changeColor2()" onmouseover="changeColor1()"  onfocus="this.value=''" value="${product.quantity}"></td>
         </tr>
         <tr>
             <th>Color:</th>
-            <td><input type="text" name="quantity" value="${product.color}"></td>
+            <td><input id="4" type="text" name="quantity" onmouseout="changeColor2()" onmouseover="changeColor1()"  onfocus="this.value=''" value="${product.color}"></td>
         </tr>
         <tr>
             <th>Description:</th>
-            <td><input type="text" name="quantity" value="${product.description}"></td>
+            <td><input id="5"type="text" name="quantity" onmouseout="changeColor2()" onmouseover="changeColor1()"  onfocus="this.value=''" value="${product.description}"></td>
         </tr>
         <tr>
         <th>Category:</th>
-        <td><input type="text" name="quantity" value="${product.categoryId}"></td>
+        <td><input id="6" type="text" name="quantity" onmouseover="changeColor1()" onmouseout="changeColor2()"  onfocus="this.value=''"value="${product.categoryId}"></td>
     </tr>
     </table>
 </form>
 </body>
 </html>
+<script>
+    function changeColor1() {
+        document.getElementById('1').style.background = "yellow";
+        document.getElementById('2').style.background = "yellow";
+        document.getElementById('3').style.background = "yellow";
+        document.getElementById('4').style.background = "yellow";
+        document.getElementById('5').style.background = "yellow";
+        document.getElementById('6').style.background = "yellow";
+    }
+
+    function changeColor2() {
+        document.getElementById('1').style.background = "#ffffff";
+        document.getElementById('2').style.background = "#ffffff";
+        document.getElementById('3').style.background = "#ffffff";
+        document.getElementById('4').style.background = "#ffffff";
+        document.getElementById('5').style.background = "#ffffff";
+        document.getElementById('6').style.background = "#ffffff";
+    }
+</script>
