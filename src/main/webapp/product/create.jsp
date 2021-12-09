@@ -9,6 +9,27 @@
 <html>
 <head>
     <title>Title</title>
+    <style>
+        button {
+            background: #0f3b62;
+            color: whitesmoke;
+            border: none;
+            font-size: 25px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        button:hover {
+            transform: scale(1.2);
+        }
+
+        body {
+            background: #e7e7e7;
+            color: black;
+        }
+    </style>
 </head>
 <body>
 <h2>Create</h2>
