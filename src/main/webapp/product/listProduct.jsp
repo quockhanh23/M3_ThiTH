@@ -24,9 +24,9 @@
 </form>
 <h3><a href="/products?action=create">Create</a></h3>
 <c:forEach var="i" begin="0" end="${list.size()-1}">
-   <h2> ${list.get(i).id}, ${list.get(i).name}, ${list.get(i).price},
-    ${list.get(i).quantity},  ${list.get(i).color}, ${list.get(i).description},
-    ${category.get(i).name}</h2>
+    <h2> ${list.get(i).id}, ${list.get(i).name}, ${list.get(i).price},
+            ${list.get(i).quantity}, ${list.get(i).color}, ${list.get(i).description},
+            ${category.get(i).name}</h2>
     <a href="/products?action=edit&id=${list.get(i).id}">Edit</a>
     <a href="/products?action=delete&id=${list.get(i).id}">delete</a>
 </c:forEach>

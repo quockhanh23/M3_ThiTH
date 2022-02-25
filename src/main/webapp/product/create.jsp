@@ -59,16 +59,16 @@
             <th>CategoryId</th>
             <td><input type="number" name="categoryId"></td>
         </tr>
-<%--        <tr>--%>
-<%--            <th>CategoryId:</th>--%>
-<%--            <td>--%>
-<%--                <select name="categoryId">--%>
-<%--                    <option value="">-</option>--%>
-<%--                    <c:forEach var="ct" items="${category1}">--%>
-<%--                        <option value="${ct.id} ${ct.name}">${ct.id}. ${ct.name}</option>--%>
-<%--                    </c:forEach>--%>
-<%--                </select>ct--%>
-            </td>
+        <%--        <tr>--%>
+        <%--            <th>CategoryId:</th>--%>
+        <%--            <td>--%>
+        <%--                <select name="categoryId">--%>
+        <%--                    <option value="">-</option>--%>
+        <%--                    <c:forEach var="ct" items="${category1}">--%>
+        <%--                        <option value="${ct.id} ${ct.name}">${ct.id}. ${ct.name}</option>--%>
+        <%--                    </c:forEach>--%>
+        <%--                </select>ct--%>
+        </td>
         </tr>
         <tr>
 

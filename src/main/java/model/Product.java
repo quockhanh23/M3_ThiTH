@@ -18,6 +18,7 @@ public class Product {
         this.description = description;
         this.categoryId = categoryId;
     }
+
     public Product(String name, double price, int quantity, String color, String description, int categoryId) {
         this.name = name;
         this.price = price;
